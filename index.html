@@ -417,6 +417,18 @@
         text-underline-offset: 0.25rem;
         font-family: var(--font1);
     }
+    .footer-bottom{
+      border-top: 1px solid rgba(0, 0, 0, 0.15);
+    }
+    .footer-bottom-inner{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 10px;
+        }
+        .footer-bottom-inner img{
+            width: 120px !important;
+        }
     @media screen and (max-width: 800px) {
         .footer__inner{
             flex-direction: column;
@@ -462,6 +474,16 @@
             padding: 0px;
             margin-top: -10px;
         }
+        .footer-bottom-inner{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .footer-bottom-inner p{
+            margin-top: 0px;
+        }
+        
     }
 </style>
 
@@ -563,6 +585,11 @@
             </ul>
         </div>
     </div>
-
-    
+  </div>
+  <div class="footer-bottom ">
+    <div class="footer-bottom-inner container">
+      <img src="https://s3.pushplanet.com/users/a09ce1db90da43e6bae94afe1ed64f37/uploads/13507442d9354505bad3fd8d3c08eb7d/svgexport21.svg" alt="">
+      <p>The Spruce is part of the People Inc. publishing family.</p>
+    </div>
+  </div>
 </footer>
