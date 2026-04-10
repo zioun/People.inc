@@ -1,14 +1,17 @@
 <!-- Header Html part -->
 
 <!-- Header Style -->
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link
   href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
   rel="stylesheet"
 />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
 
 <style>
   :root {
@@ -24,7 +27,7 @@
     -webkit-text-size-adjust: 100%;
     color: rgba(0, 0, 0, 0.95);
   }
-  .container{
+  .container {
     max-width: 1250px !important;
     margin: 0 auto;
     padding: 0px 20px;
@@ -85,7 +88,6 @@
     box-shadow: 0 0.125rem 0.375rem rgba(0, 0, 0, 0.15);
     margin: 0;
     padding: 20px 0px;
-
   }
 
   .header__menu-top {
@@ -111,7 +113,7 @@
     width: 17.375rem;
     height: 3rem;
   }
-  .header-nav{
+  .header-nav {
     margin-top: 20px !important;
   }
   .header-nav,
@@ -254,10 +256,13 @@
         id="logo_1-0"
         class="comp logo mntl-block"
         rel="home"
-        href="https://www.foodandwine.com/"
+        href="https://www.thespruce.com/"
         aria-label="Home"
       >
-        <img src="https://s3.pushplanet.com/users/a09ce1db90da43e6bae94afe1ed64f37/uploads/982617af9236416a87e5ceb43fe831cd/headerlogospruce.svg" alt="">
+        <img
+          src="https://s3.pushplanet.com/users/a09ce1db90da43e6bae94afe1ed64f37/uploads/982617af9236416a87e5ceb43fe831cd/headerlogospruce.svg"
+          alt=""
+        />
       </a>
     </div>
 
@@ -333,263 +338,307 @@
 </header>
 
 <style>
-    .container{
+  .container {
     max-width: 1250px !important;
     margin: 0 auto;
     padding: 0px 20px;
   }
-    footer{
-        padding-left: max(2rem, calc(50% - 38.125rem));
-        padding-right: max(2rem, calc(50% - 38.125rem));
-        box-shadow: 0 -0.125rem 0.375rem rgba(0, 0, 0, 0.15);
-        padding: 10px 0px;
+  footer {
+    padding-left: max(2rem, calc(50% - 38.125rem));
+    padding-right: max(2rem, calc(50% - 38.125rem));
+    box-shadow: 0 -0.125rem 0.375rem rgba(0, 0, 0, 0.15);
+    padding: 10px 0px;
+  }
+  .footer__logo {
+    margin-top: 2rem;
+  }
+  .footer__social {
+    margin-top: 1.5rem;
+  }
+  .footer__magsub {
+    margin-top: 1.5rem;
+  }
+  .social-nav__list {
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+  }
+  .social-nav__list li a {
+    font-size: 25px !important;
+    color: rgba(24, 24, 24, 0.8) !important;
+  }
+
+  .social-nav__list li a:hover {
+    color: rgba(0, 0, 0, 0.95) !important;
+  }
+
+  .footer__inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer__secondary {
+    display: flex;
+    gap: 2rem;
+  }
+  .footer__seco__item__one ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .footer__seco__item__one ul li a,
+  .footer__seco__item__two ul li a,
+  .footer__seco__item__three ul li a {
+    border-bottom: 1px solid transparent;
+  }
+  .footer__seco__item__one li a:hover,
+  .footer__seco__item__two li a:hover,
+  .footer__seco__item__three li a:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.774);
+  }
+  .footer__seco__item__one ul li a {
+    color: rgba(0, 0, 0, 0.95);
+    font-size: 18px;
+    line-height: 1.25rem;
+    letter-spacing: 0.0625rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-underline-offset: 0.25rem;
+    font-family: var(--font1);
+  }
+  .footer__seco__item__two ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .footer__seco__item__two ul li a {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.25rem;
+    letter-spacing: 0.0625rem;
+    font-weight: normal;
+    text-transform: capitalize;
+    text-underline-offset: 0.25rem;
+    font-family: var(--font1);
+  }
+  .footer__seco__item__three ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .footer__seco__item__three ul li a {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.25rem;
+    letter-spacing: 0.0625rem;
+    font-weight: normal;
+    text-transform: capitalize;
+    text-underline-offset: 0.25rem;
+    font-family: var(--font1);
+  }
+  .footer-bottom {
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    margin-top: 20px;
+  }
+  .footer-bottom-inner {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .footer-bottom-inner img {
+    width: 120px !important;
+  }
+  .footer-bottom-link{
+    color: blue;
+    text-decoration: underline;
+  }
+  .footer-bottom-link:hover{
+    color: blue;
+    text-decoration: none;
+  }
+  @media screen and (max-width: 800px) {
+    .footer__inner {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
-    .footer__logo{
-        margin-top: 2rem;
+    .footer__secondary {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
-    .footer__social{
-        margin-top: 1.5rem;
+    .footer__logo {
+      display: flex;
+      justify-content: center;
     }
-    .footer__magsub{
-        margin-top: 1.5rem;
+    .footer__social-nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
     }
-    .social-nav__list{
-        display: flex;
-        gap: 1.0rem;
-        padding: 0;    
+    .social-nav__title {
+      text-align: center;
     }
-    .social-nav__list li a{
-        color: rgba(0, 0, 0, 0.774);
-        font-size: 1.5rem;
+    .footer__seco__item__one ul {
+      display: flex !important;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+      margin-top: 20px;
     }
-    .footer__inner{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
+    .footer__seco__item__two ul {
+      display: flex !important;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+      margin-top: -10px;
     }
-    .footer__secondary{
-        display: flex;
-        gap: 2rem;
+    .footer__seco__item__three ul {
+      display: flex !important;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+      margin-top: -10px;
     }
-    .footer__seco__item__one ul{
-        display: flex;
-        flex-direction: column;
-        gap: 25px;
+    .footer-bottom-inner {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 30px;
     }
-    .footer__seco__item__one ul li a{
-        color: rgba(0, 0, 0, 0.95);
-        font-size: 18px;
-        line-height: 1.25rem;
-        letter-spacing: 0.0625rem;
-        font-weight: 700;
-        text-transform: uppercase;
-        text-underline-offset: 0.25rem;
-        font-family: var(--font1);
+    .footer-bottom-inner p {
+      margin-top: 0px;
     }
-    .footer__seco__item__two ul{
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-    }
-    .footer__seco__item__two ul li a{
-        color: #666;
-        font-size: 16px;
-        line-height: 1.25rem;
-        letter-spacing: 0.0625rem;
-        font-weight: normal;
-        text-transform: capitalize;
-        text-underline-offset: 0.25rem;
-        font-family: var(--font1);
-    }
-    .footer__seco__item__three ul{
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-    }
-    .footer__seco__item__three ul li a{
-        color: #666;
-        font-size: 16px;
-        line-height: 1.25rem;
-        letter-spacing: 0.0625rem;
-        font-weight: normal;
-        text-transform: capitalize;
-        text-underline-offset: 0.25rem;
-        font-family: var(--font1);
-    }
-    .footer-bottom{
-      border-top: 1px solid rgba(0, 0, 0, 0.15);
-    }
-    .footer-bottom-inner{
-            display: flex;
-            align-items: center;
-            justify-content: start;
-            gap: 10px;
-        }
-        .footer-bottom-inner img{
-            width: 120px !important;
-        }
-    @media screen and (max-width: 800px) {
-        .footer__inner{
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-        .footer__secondary{
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-        .footer__logo{
-            display: flex;
-            justify-content: center;
-        }
-        .footer__social-nav{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-        .social-nav__title{
-            text-align: center;
-        }
-        .footer__seco__item__one ul{
-            display: flex !important;
-            flex-direction: column;
-            align-items: center;
-            padding: 0px;
-            margin-top: 20px;
-        }
-        .footer__seco__item__two ul{
-            display: flex !important;
-            flex-direction: column;
-            align-items: center;
-            padding: 0px;
-            margin-top: -10px;
-        }
-        .footer__seco__item__three ul{
-            display: flex !important;
-            flex-direction: column;
-            align-items: center;
-            padding: 0px;
-            margin-top: -10px;
-        }
-        .footer-bottom-inner{
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            margin-top: 30px;
-        }
-        .footer-bottom-inner p{
-            margin-top: 0px;
-        }
-        
-    }
+  }
 </style>
 
 <footer class="footer">
   <div class="footer__inner container">
     <div class="footer__primary">
       <div class="footer__logo">
-        <a rel="home" href="https://www.foodandwine.com/" aria-label="Home">
-          <img src="https://s3.pushplanet.com/users/a09ce1db90da43e6bae94afe1ed64f37/uploads/8dd1b72b268d4950ba686bbc1bfd4ca9/footerlogospruce.svg" alt="">
+        <a rel="home" href="https://www.thespruce.com/" aria-label="Home">
+          <img
+            src="https://s3.pushplanet.com/users/a09ce1db90da43e6bae94afe1ed64f37/uploads/8dd1b72b268d4950ba686bbc1bfd4ca9/footerlogospruce.svg"
+            alt=""
+          />
         </a>
       </div>
-        <div class="footer__magsub">
-          <div class="img-placeholder">
-            <img
-              data-src="https://www.foodandwine.com/thmb/nMAPI4MltcvNcjLFloJRXTa7o0s=/300x150/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/foodandwine_sub-7348613ac12e41af9a782633fefed511.png"
-              alt="Magazine Sub Placeholder Image"
-              class="universal-image__image lazyloaded"
-              src="https://www.foodandwine.com/thmb/nMAPI4MltcvNcjLFloJRXTa7o0s=/300x150/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/foodandwine_sub-7348613ac12e41af9a782633fefed511.png"
-              width="300"
-              height="150"
-            />
-          </div>
+      <div class="footer__magsub">
+        <div class="img-placeholder">
+          <img
+            data-src="https://www.foodandwine.com/thmb/nMAPI4MltcvNcjLFloJRXTa7o0s=/300x150/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/foodandwine_sub-7348613ac12e41af9a782633fefed511.png"
+            alt="Magazine Sub Placeholder Image"
+            class="universal-image__image lazyloaded"
+            src="https://www.foodandwine.com/thmb/nMAPI4MltcvNcjLFloJRXTa7o0s=/300x150/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/foodandwine_sub-7348613ac12e41af9a782633fefed511.png"
+            width="300"
+            height="150"
+          />
         </div>
-      </a>
+      </div>
 
       <div class="footer__social">
         <nav class="footer__social-nav .allrecipes-social-nav">
           <h3 class="social-nav__title">Follow Us</h3>
           <ul class="social-nav__list">
             <li class="social-nav__item social-nav__item--facebook">
-                <a
-                    href="https://www.facebook.com/foodandwine"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Facebook"
-                >
-                    <i class="fab fa-instagram"></i>
-                </a>
+              <a
+                href="https://www.instagram.com/thespruceofficial/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
             </li>
             <li class="social-nav__item social-nav__item--facebook">
-                <a
-                    href="https://www.facebook.com/foodandwine"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Facebook"
-                >
-                    <i class="fab fa-tiktok"></i>
-                </a>
+              <a
+                href="https://www.tiktok.com/@thespruceofficial"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="TikTok"
+              >
+                <i class="fab fa-tiktok"></i>
+              </a>
             </li>
-            
+
             <li class="social-nav__item social-nav__item--facebook">
-                <a
-                    href="https://www.facebook.com/foodandwine"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Facebook"
-                >
-                    <i class="fab fa-pinterest-p"></i>
-                </a>
+              <a
+                href="https://www.pinterest.com/thespruceofficial/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Pinterest"
+              >
+                <i class="fab fa-pinterest-p"></i>
+              </a>
             </li>
             <li class="social-nav__item social-nav__item--facebook">
-                <a
-                    href="https://www.facebook.com/foodandwine"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Facebook"
-                >
-                    <i class="fa-brands fa-facebook-f"></i>
-                </a>
+              <a
+                href="https://www.facebook.com/thespruceofficial/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+              >
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
             </li>
           </ul>
         </nav>
       </div>
     </div>
     <div class="footer__secondary">
-        <div class="footer__seco__item__one">
-            <ul>
-                <li><a href="https://www.foodandwine.com/terms">Decor</a></li>
-                <li><a href="https://www.foodandwine.com/privacy">Garden</a></li>
-                <li><a href="https://www.foodandwine.com/contact">Home Improvement</a></li>
-                <li><a href="https://www.foodandwine.com/contact">Celebrations</a></li>
-                <li><a href="https://www.foodandwine.com/contact">What to Buy</a></li>
-                <li><a href="https://www.foodandwine.com/contact">News</a></li>
-            </ul>
-        </div>
-        <div class="footer__seco__item__two">
-            <ul>
-                <li><a href="https://www.foodandwine.com/terms">About Us</a></li>
-                <li><a href="https://www.foodandwine.com/privacy">Terms of Service</a></li>
-                <li><a href="https://www.foodandwine.com/contact">Editorial Guidelines</a></li>
-                <li><a href="https://www.foodandwine.com/contact">Advertise</a></li>
-            </ul>
-        </div>
-        <div class="footer__seco__item__three">
-            <ul>
-                <li><a href="https://www.foodandwine.com/terms">Careers</a></li>
-                <li><a href="https://www.foodandwine.com/privacy">Privacy Policy</a></li>
-                <li><a href="https://www.foodandwine.com/contact">Contact</a></li>
-            </ul>
-        </div>
+      <div class="footer__seco__item__one">
+        <ul>
+          <li><a href="https://www.thespruce.com/home-design-and-decorating-4127998">Decor</a></li>
+          <li><a href="https://www.thespruce.com/gardening-4127780">Garden</a></li>
+          <li>
+            <a href="https://www.thespruce.com/home-improvement-4127862">Home Improvement</a>
+          </li>
+          <li>
+            <a href="https://www.thespruce.com/cleaning-and-organizing-4127927">Cleaning</a>
+          </li>
+          <li>
+            <a href="https://www.thespruce.com/celebrations-4163111">Celebrations</a>
+          </li>
+          <li><a href="https://www.thespruce.com/best-home-products-4135328">What to Buy</a></li>
+          <li><a href="https://www.thespruce.com/home-news-5070015">News</a></li>
+        </ul>
+      </div>
+      <div class="footer__seco__item__two">
+        <ul>
+          <li><a href="https://www.thespruce.com/about-us-4776800">About Us</a></li>
+          <li>
+            <a href="https://www.people.inc/brands-termsofservice?_gl=1*13sz2np*_ga*NjYzNjUyNDYwLjE3NzU3OTkzMjg.*_ga_DK3GDWHWJH*czE3NzU4MTUxMzYkbzQkZzEkdDE3NzU4MTk1NDIkajE4JGwwJGgw">Terms of Service</a>
+          </li>
+          <li>
+            <a href="https://www.thespruce.com/about-us-4776800#toc-editorial-guidelines"
+              >Editorial Guidelines</a
+            >
+          </li>
+          <li><a href="https://www.people.inc/advertising?_gl=1*1i1hcag*_ga*NjYzNjUyNDYwLjE3NzU3OTkzMjg.*_ga_DK3GDWHWJH*czE3NzU4MTUxMzYkbzQkZzEkdDE3NzU4MTk1NzIkajYwJGwwJGgw">Advertise</a></li>
+        </ul>
+      </div>
+      <div class="footer__seco__item__three">
+        <ul>
+          <li><a href="https://www.people.inc/careers?_gl=1*1es8shk*_ga*NjYzNjUyNDYwLjE3NzU3OTkzMjg.*_ga_DK3GDWHWJH*czE3NzU4MTUxMzYkbzQkZzEkdDE3NzU4MTk2MDIkajMwJGwwJGgw">Careers</a></li>
+          <li>
+            <a href="https://www.people.inc/brands-privacy?_gl=1*1f7soi6*_ga*NjYzNjUyNDYwLjE3NzU3OTkzMjg.*_ga_DK3GDWHWJH*czE3NzU4MTUxMzYkbzQkZzEkdDE3NzU4MTk2MzIkajYwJGwwJGgw">Privacy Policy</a>
+          </li>
+          <li><a href="https://www.thespruce.com/about-us-4776800#toc-contact-us">Contact</a></li>
+        </ul>
+      </div>
     </div>
   </div>
-  <div class="footer-bottom ">
+  <div class="footer-bottom">
     <div class="footer-bottom-inner container">
-      <img src="https://s3.pushplanet.com/users/a09ce1db90da43e6bae94afe1ed64f37/uploads/13507442d9354505bad3fd8d3c08eb7d/svgexport21.svg" alt="">
-      <p>The Spruce is part of the People Inc. publishing family.</p>
+      <img
+        src="https://s3.pushplanet.com/users/a09ce1db90da43e6bae94afe1ed64f37/uploads/13507442d9354505bad3fd8d3c08eb7d/svgexport21.svg"
+        alt=""
+      />
+      <p>The Spruce is part of the <a class="footer-bottom-link" href="https://www.people.inc/?_gl=1*1ol4jz2*_ga*NjYzNjUyNDYwLjE3NzU3OTkzMjg.*_ga_DK3GDWHWJH*czE3NzU4MTUxMzYkbzQkZzEkdDE3NzU4MTk5NjIkajMwJGwwJGgw">People Inc.</a> publishing family.</p>
     </div>
   </div>
 </footer>
